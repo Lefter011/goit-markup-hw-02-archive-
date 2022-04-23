@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title lang="en">Portfolio</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"
+      defer
+    ></script>
+    <script src="./js/portfolio.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a lang="en" href="index.html"><span>Web</span>Studio</a>
+      <nav>
+        <ul class="navigation">
+          <li><a href="#">Студия</a></li>
+          <li><a href="#">Портфолио</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <ul class="contact">
+        <li><a href="mailto:info@devstudio.com"></a>info@devstudio.com</li>
+        <li><a href="tel:+380961111111"></a>+38 096 111 11 11</li>
+      </ul>
+    </header>
+    <main>
+      <section>
+        <div class="type_selection_filter_group">
+          <ul>
+            <!-- выбор по ссылке определенного меню с сокрытием, если будем использовать JS то можно будет сделать общую базу и потом подтягивать все по id, так как у нас только html и css то по вызову div с сокрытием строго div -->
+            <!--<li id="all"><a href="#all">Все</a></li>
+            <li id="website">Веб-сайты</li>
+            <li id="applications">Приложения</li>
+            <li id="design">Дизайн</li>
+            <li id="marketing">Маркетинг</li>-->
+            <!-- если ипользовать js-->
+            <li>
+              <button data-filter="type_all" class="is-checked">Все</button>
+            </li>
+            <li>
+              <button data-filter="type_website">Веб-сайты</button>
+            </li>
+            <li>
+              <button data-filter="type_applications">Приложения</button>
+            </li>
+            <li>
+              <button data-filter="type_design">Дизайн</button>
+            </li>
+            <li>
+              <button data-filter="type_marketing">Маркетинг</button>
+            </li>
+          </ul>
+        </div>
+        <div class="list_container">
+          <div class="jobs_container type_applications type_all">
+            <img
+              src="./img/portfolio/img_ap_1.jpg"
+              alt="Portfolio Application Seafood"
+              width="370"
+            />
+            <h2>Ресторан <span lang="en">Seafood</span></h2>
+            <p>Приложение</p>
+          </div>
+          <div class="jobs_container type_website type_all">
+            <img
+              src="./img/portfolio/img_web_1.jpg"
+              alt="Portfolio web-site Techcruck"
+              width="370"
+            />
+            <h2>Технокряк</h2>
+            <p>Веб-сайт</p>
+          </div>
+          <div class="jobs_container type_design type_all">
+            <img
+              src="./img/portfolio/img_de_1.jpg"
+              alt="Portfolio poster New Orlean vs Golden Star"
+              width="370"
+            />
+            <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+            <p>Дизайн</p>
+          </div>
+          <div class="jobs_container type_marketing type_all">
+            <img
+              src="./img/portfolio/img_mar_1.jpg"
+              alt="Portfolio project Prime"
+              width="370"
+            />
+            <h2>Проект <span lang="en">Prime</span></h2>
+            <p>Маркетинг</p>
+          </div>
+          <div class="jobs_container type_applications type_all">
+            <img
+              src="./img/portfolio/img_ap_2.jpg"
+              alt="Portfolio project Boxes"
+              width="370"
+            />
+            <h2>Проект <span lang="en">Boxes</span></h2>
+            <p>Приложение</p>
+          </div>
+
+          <div class="jobs_container type_website type_all">
+            <img
+              src="./img/portfolio/img_web_2.jpg"
+              alt="Portfolio Inspiration has no Borders"
+              width="370"
+            />
+            <h2 lang="en">Inspiration has no Borders</h2>
+            <p>Веб-сайт</p>
+          </div>
+          <div class="jobs_container type_design type_all">
+            <img
+              src="./img/portfolio/img_de_2.jpg"
+              alt="Portfolio edition Limited Edition"
+              width="370"
+            />
+            <h2>Издание <span lang="en">Limited Edition</span></h2>
+            <p>Дизайн</p>
+          </div>
+          <div class="jobs_container type_marketing type_all">
+            <img
+              src="./img/portfolio/img_mar_2.jpg"
+              alt="Portfolio project LAB"
+              width="370"
+            />
+            <h2>Проект <span lang="en">LAB</span></h2>
+            <p>Маркетинг</p>
+          </div>
+          <div class="jobs_container type_applications type_all">
+            <img
+              src="./img/portfolio/img_ap_3.jpg"
+              alt="Portfolio project Growing Business"
+              width="370"
+            />
+            <h2 lang="en">Growing Business</h2>
+            <p>Приложение</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <a lang="en" href="index.html"><span>Web</span>Studio</a>
+        <address>
+          <ul class="contact">
+            <li><p>г. Киев, пр-т Леси Украинки, 26</p></li>
+            <li><a href="mailto:info@devstudio.com"></a>info@devstudio.com</li>
+            <li><a href="tel:+380961111111"></a>+38 096 111 11 11</li>
+          </ul>
+        </address>
+      </div>
+    </footer>
+  </body>
+</html>

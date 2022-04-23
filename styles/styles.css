@@ -1,0 +1,47 @@
+:root {
+    
+}
+
+.type_selection_filter_group ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.type_selection_filter_group button {
+cursor: pointer;
+border: 1px solid #58717a;
+color: #00b4f1;
+padding: 1.25rem 3.8rem;
+background: transparent;
+font-family: inherit;
+font-weight: 800;
+font-size: 1.25rem;
+}
+
+.type_selection_filter_group button:hover,
+.type_selection_filter_group .is-checked {
+    background: #0084fa;
+    color: rgb(255, 255, 255);
+    border-color: #0084fa;
+}
+
+.list_container {
+    margin-top: 2.5rem;
+    overflow: hidden;
+    transition-property: height, width;
+    transition-duration: 0.8s;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.jobs_container {
+    padding: 2rem 5rem;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0.625rem;
+}
