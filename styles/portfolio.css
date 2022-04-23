@@ -47,5 +47,6 @@ main {
     justify-content: center;
     text-align: center;
     box-sizing: border-box;
-    margin: 30px;
+    margin: 30px 0;
+    width: 33%;
 }
