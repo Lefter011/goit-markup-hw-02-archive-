@@ -1,7 +1,153 @@
 main {
-    margin-top: 174px;
+    margin-top: 83px;
 }
 
 .container_center {
     padding: 0 10%;
+}
+
+.main {
+    height: 600px;
+    background: #2F303A;
+}
+
+.main_information {
+    text-align: center;
+    padding: 1px 0px 0px 0px;
+    /*1px bug*/
+    margin: 0 auto;
+    position: relative;
+}
+
+.main_information h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    position: relative;
+    z-index: 1;
+    margin-top: 200px;
+}
+
+.main_information button {
+    max-width: 45rem;
+    position: relative;
+    z-index: 1;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: white;
+    height: 50px;
+    width: 200px;
+    background-color: #2196F3;
+    border-radius: 4px;
+}
+
+.features {
+    margin: 95px 0;
+}
+
+.features_information ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.features_information li {
+    margin: 0 15px;
+}
+
+.features_information h3 {
+    margin: 0;
+    padding: 0 0.5rem 10px 0.5rem;
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.features_information p {
+    margin: 0;
+    padding: 0 0.5rem;
+    color: #757575;
+    font-size: 14px;
+    line-height: 24px;    
+    letter-spacing: 0.03em;
+}
+
+.work {
+    margin-bottom: 95px;
+}
+
+.what_we_doing h2 {
+    margin: 0 0 50px 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.what_we_doing ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.what_we_doing li {
+    text-align: center;
+    margin: 0 ;
+}
+
+.team {
+    padding: 95px 10%;
+    background: #F5F4FA;
+}
+
+.team_list h2 {
+    margin: 0 0 50px 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team_list ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.team_list li {
+    text-align: center;
+    margin: auto;  
+    background: white;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team_list h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.team_list p {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin: 10px 0 30px 0
 }
