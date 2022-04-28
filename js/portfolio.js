@@ -1,6 +1,6 @@
 var grid = $(".list_container").isotope({
-  itemSelector: ".jobs_container",
   layoutMode: "fitRows",
+  itemSelector: ".jobs_container",
   percentPosition: true,
   stagger: 50,
   transitionDuration: 500,

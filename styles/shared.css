@@ -1,19 +1,21 @@
 :root {
-
+--hover-color: #2196F3;
+--firsttext-color: #212121;
+--secondtext-color: #757575;
 }
 
 body {
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
     font-weight: 400;
-    margin: 0px;
+    color: black;
+    margin: 0rem;
     background-color: #fff;
-
 }
 
 ul {
     list-style: none;
-    margin: 0px;
+    margin: 0rem;
     padding: 0;
 }
 
@@ -21,13 +23,13 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px 10%;
+    padding: 1.5625rem 10%;
     position: absolute;
     width: 100%;
-    top: 0px;
-    left: 0px;
+    top: 0rem;
+    left: 0rem;
     box-sizing: border-box;
-    border-bottom: 2px solid #ECECEC;
+    border-bottom: 0.125rem solid #ECECEC;
 }
 
 header a {
@@ -39,11 +41,11 @@ header a:hover {
 }
 
 .page-logo {
-    margin-right: 65px;
-    color: black;
+    margin-right: 4.0625rem;
     font-family: 'Raleway';
-    font-size: 26px;
-    line-height: 31px;
+    color: black;
+    font-size: 1.625rem;
+    line-height: 1.9375rem;
 }
 
 .page-logo:hover {
@@ -51,7 +53,7 @@ header a:hover {
 }
 
 .page-logo span {
-    color:#2196F3;
+    color: var(--hover-color);
 }
 
 header nav,
@@ -60,17 +62,17 @@ header nav ul {
 }
 
 header nav a {
-    color: #212121;
-    padding: 1rem 25px;
+    color: var(--firsttext-color);
+    padding: 1rem 1.5625rem;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 0.875rem;
+    line-height: 1rem;
     letter-spacing: 0.02em;
 }
 
 header a:hover,
 .active {
-    color: #2196F3;
+    color: var(--hover-color);
 }
 
 header .contact{
@@ -80,9 +82,9 @@ header .contact{
 }
 
 header .contact li a { 
-    padding: 0 25px;
-    font-size: 14px;
-    color: #757575;
+    padding: 0 1.5625rem;
+    font-size: 0.875rem;
+    color: var(--secondtext-color);
 }
 
 footer {
@@ -93,7 +95,7 @@ footer {
 }
 
 .footer_information {
-    padding: 60px 0;
+    padding: 3.75rem 0;
 }
 
 footer a {
@@ -102,21 +104,21 @@ footer a {
 
 footer address {
     color: #fff;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 0.875rem;
+    line-height: 1rem;
     letter-spacing: 0.02em;
 }
 
 footer ul {
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
 footer li {
-    padding: 4.5px 0;
+    padding: 0.2813rem 0;
 }
 
 footer .contact li a {
-    font-size: 14px;
-    color: #757575;
+    font-size: 0.875rem;
+    color: var(--secondtext-color);
 }
 
