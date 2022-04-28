@@ -22,13 +22,12 @@
     text-decoration: none;
     background: #F5F4FA;
     border: 0.25rem solid transparent;
-    font-size: 1rem;
     padding: 0.3125rem;
     margin: 0rem 0.25rem;
     height: 2.375rem;
-    font-weight: 500;
     font-size: 1rem;
-    line-height: 1.625rem;
+    font-weight: 500;
+    line-height: 1.2;
 
 }
 
@@ -70,8 +69,8 @@
 .jobs_container h2 {
     margin: 1.25rem 0 0 0;
     font-weight: 700;
-    font-size: 1.125rem;
-    line-height: 2.25rem;
+    font-size: 18px;
+    line-height: 1.7;
     letter-spacing: 0.06em;
     color: var(--firsttext-color);
 }
@@ -79,7 +78,7 @@
 .jobs_container p {
     margin: 0.25rem 0 1.25rem 0;
     font-size: 1rem;
-    line-height: 1.875rem;
+    line-height: 1.6;
     letter-spacing: 0.03em;
     color: var(--secondtext-color);
 }

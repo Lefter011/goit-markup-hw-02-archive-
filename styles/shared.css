@@ -6,7 +6,6 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    font-size: 1rem;
     font-weight: 400;
     color: black;
     margin: 0rem;
@@ -45,7 +44,7 @@ header a:hover {
     font-family: 'Raleway';
     color: black;
     font-size: 1.625rem;
-    line-height: 1.9375rem;
+    line-height: 1;
 }
 
 .page-logo:hover {
@@ -66,7 +65,7 @@ header nav a {
     padding: 1rem 1.5625rem;
     font-weight: 500;
     font-size: 0.875rem;
-    line-height: 1rem;
+    line-height: 1;
     letter-spacing: 0.02em;
 }
 
@@ -84,7 +83,12 @@ header .contact{
 header .contact li a { 
     padding: 0 1.5625rem;
     font-size: 0.875rem;
+    line-height: 1;
     color: var(--secondtext-color);
+}
+
+header li a:hover {
+    color: var(--hover-color);
 }
 
 footer {
@@ -105,7 +109,7 @@ footer a {
 footer address {
     color: #fff;
     font-size: 0.875rem;
-    line-height: 1rem;
+    line-height: 1;
     letter-spacing: 0.02em;
 }
 
@@ -117,8 +121,12 @@ footer li {
     padding: 0.2813rem 0;
 }
 
-footer .contact li a {
+footer li a {
     font-size: 0.875rem;
     color: var(--secondtext-color);
+}
+
+footer li a:hover {
+    color: var(--hover-color);
 }
 
